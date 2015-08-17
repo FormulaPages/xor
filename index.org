@@ -1,12 +1,12 @@
 #+TITLE: formula-or
 
 #+BEGIN_SRC sh :exports none
-  babel xor.js -m umd --out-file index.js
+  babel XOR.js -m umd --out-file index.js
 #+END_SRC
 
 #+RESULTS:
 
-#+BEGIN_SRC web :tangle xor.js
+#+BEGIN_SRC web :tangle XOR.js
   export default function XOR() {
     var args = fn.flatten(arguments);
     var result = 0;

@@ -8,7 +8,7 @@
       exports: {}
     };
     factory(mod.exports, mod);
-    global.xor = mod.exports;
+    global.XOR = mod.exports;
   }
 })(this, function (exports, module) {
   "use strict";
