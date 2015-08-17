@@ -7,8 +7,10 @@
 #+RESULTS:
 
 #+BEGIN_SRC web :tangle XOR.js
+  import FLATTEN from 'formula-flatten';
+
   export default function XOR() {
-    var args = fn.flatten(arguments);
+    var args = FLATTEN(arguments);
     var result = 0;
     for (var i = 0; i < args.length; i++) {
       if (args[i]) {

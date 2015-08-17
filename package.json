@@ -1,6 +1,6 @@
 {
   "name": "formula-xor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Spreadsheet compatible XOR function as JavaScript UMD Module",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/xor/issues"
   },
-  "homepage": "https://github.com/FormulaPages/xor#readme"
+  "homepage": "https://github.com/FormulaPages/xor#readme",
+  "dependencies": {
+    "formula-flatten": "^1.0.0"
+  }
 }
