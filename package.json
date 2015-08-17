@@ -1,0 +1,23 @@
+{
+  "name": "formula-xor",
+  "version": "1.0.0",
+  "description": "Spreadsheet compatible XOR function as JavaScript UMD Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/xor.git"
+  },
+  "keywords": [
+    "spreadsheet",
+    "formula"
+  ],
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/xor/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/xor#readme"
+}
